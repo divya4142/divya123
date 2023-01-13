@@ -1,126 +1,916 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="55" passed="55" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-11T08:48:14 IST" name="Default suite" finished-at="2023-01-11T08:50:18 IST" duration-ms="123706">
+  <suite started-at="2023-01-13T08:23:23 IST" name="Suite" finished-at="2023-01-13T08:34:57 IST" duration-ms="694136">
     <groups>
     </groups>
-    <test started-at="2023-01-11T08:48:14 IST" name="Default test" finished-at="2023-01-11T08:50:18 IST" duration-ms="123706">
-      <class name="hrm.testpages.Education_TestFunctionality2">
-        <test-method is-config="true" signature="Windowopen()[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:48:14 IST" name="Windowopen" finished-at="2023-01-11T08:48:31 IST" duration-ms="17370" status="PASS">
+    <test started-at="2023-01-13T08:23:23 IST" name="Test.xml" finished-at="2023-01-13T08:34:57 IST" duration-ms="694136">
+      <class name="hrm.testpages.hrm_loginfunctionality_testpage">
+        <test-method is-config="true" signature="Windowopen()[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:25:42 IST" name="Windowopen" finished-at="2023-01-13T08:25:49 IST" duration-ms="6876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Windowopen -->
-        <test-method signature="Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:48:31 IST" name="Vlaidate_Printer_Settings" finished-at="2023-01-11T08:48:31 IST" duration-ms="10" status="PASS">
+        <test-method signature="Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:25:49 IST" name="Vlaidate_Printer_Settings" finished-at="2023-01-13T08:25:49 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Vlaidate_Printer_Settings -->
-        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:48:31 IST" name="takeScreenShot" finished-at="2023-01-11T08:48:31 IST" duration-ms="46" status="PASS">
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:25:49 IST" name="takeScreenShot" finished-at="2023-01-13T08:25:49 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Vlaidate_Printer_Settings status=SUCCESS method=Education_TestFunctionality2.Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=Vlaidate_Printer_Settings status=SUCCESS method=hrm_loginfunctionality_testpage.Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method signature="Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:48:31 IST" name="Vlaidate_validSendkeys" finished-at="2023-01-11T08:48:54 IST" duration-ms="22283" status="PASS">
+        <test-method signature="Vlaidate_HomePageTiltes()[pri:1, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:25:49 IST" name="Vlaidate_HomePageTiltes" finished-at="2023-01-13T08:25:49 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_HomePageTiltes -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:25:49 IST" name="takeScreenShot" finished-at="2023-01-13T08:25:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_HomePageTiltes status=SUCCESS method=hrm_loginfunctionality_testpage.Vlaidate_HomePageTiltes()[pri:1, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_HomaPage_image()[pri:2, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:25:49 IST" name="Vlaidate_HomaPage_image" finished-at="2023-01-13T08:25:53 IST" duration-ms="3346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_HomaPage_image -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:25:53 IST" name="takeScreenShot" finished-at="2023-01-13T08:25:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_HomaPage_image status=SUCCESS method=hrm_loginfunctionality_testpage.Vlaidate_HomaPage_image()[pri:2, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_HomaPage_text()[pri:3, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:25:53 IST" name="Vlaidate_HomaPage_text" finished-at="2023-01-13T08:25:55 IST" duration-ms="2192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_HomaPage_text -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:25:55 IST" name="takeScreenShot" finished-at="2023-01-13T08:25:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_HomaPage_text status=SUCCESS method=hrm_loginfunctionality_testpage.Vlaidate_HomaPage_text()[pri:3, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_Sendkeys()[pri:4, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:25:55 IST" name="Vlaidate_Sendkeys" finished-at="2023-01-13T08:26:21 IST" duration-ms="26295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_Sendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:26:21 IST" name="takeScreenShot" finished-at="2023-01-13T08:26:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_Sendkeys status=SUCCESS method=hrm_loginfunctionality_testpage.Vlaidate_Sendkeys()[pri:4, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_ErrorMessage()[pri:5, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:26:21 IST" name="Validate_ErrorMessage" finished-at="2023-01-13T08:26:21 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_ErrorMessage -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:26:21 IST" name="takeScreenShot" finished-at="2023-01-13T08:26:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_ErrorMessage status=SUCCESS method=hrm_loginfunctionality_testpage.Validate_ErrorMessage()[pri:5, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_InvalidSendkeys()[pri:6, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:26:21 IST" name="Vlaidate_InvalidSendkeys" finished-at="2023-01-13T08:26:36 IST" duration-ms="14794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_InvalidSendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:26:36 IST" name="takeScreenShot" finished-at="2023-01-13T08:26:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_InvalidSendkeys status=SUCCESS method=hrm_loginfunctionality_testpage.Vlaidate_InvalidSendkeys()[pri:6, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_validSendkeys()[pri:7, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:26:36 IST" name="Vlaidate_validSendkeys" finished-at="2023-01-13T08:26:51 IST" duration-ms="14822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Vlaidate_validSendkeys -->
-        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:48:54 IST" name="takeScreenShot" finished-at="2023-01-11T08:48:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:26:51 IST" name="takeScreenShot" finished-at="2023-01-13T08:26:51 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Vlaidate_validSendkeys status=SUCCESS method=Education_TestFunctionality2.Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=Vlaidate_validSendkeys status=SUCCESS method=hrm_loginfunctionality_testpage.Vlaidate_validSendkeys()[pri:7, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method signature="Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:48:54 IST" name="Vlaidate_AdminPage" finished-at="2023-01-11T08:49:09 IST" duration-ms="15088" status="PASS">
+        <test-method is-config="true" signature="Windowclose()[pri:0, instance:hrm.testpages.hrm_loginfunctionality_testpage@35ef1869]" started-at="2023-01-13T08:26:51 IST" name="Windowclose" finished-at="2023-01-13T08:26:51 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowclose -->
+      </class> <!-- hrm.testpages.hrm_loginfunctionality_testpage -->
+      <class name="hrm.testpages.Job_PageTestFunctinality">
+        <test-method is-config="true" signature="Windowopen()[pri:0, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:24:33 IST" name="Windowopen" finished-at="2023-01-13T08:24:40 IST" duration-ms="6822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowopen -->
+        <test-method signature="Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:24:40 IST" name="Vlaidate_Printer_Settings" finished-at="2023-01-13T08:24:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_Printer_Settings -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:24:40 IST" name="takeScreenShot" finished-at="2023-01-13T08:24:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_Printer_Settings status=SUCCESS method=Job_PageTestFunctinality.Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.Job_PageTestFunctinality@3c407114] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:24:40 IST" name="Vlaidate_validSendkeys" finished-at="2023-01-13T08:24:56 IST" duration-ms="15833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_validSendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:24:56 IST" name="takeScreenShot" finished-at="2023-01-13T08:24:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_validSendkeys status=SUCCESS method=Job_PageTestFunctinality.Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.Job_PageTestFunctinality@3c407114] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:24:56 IST" name="Vlaidate_AdminPage" finished-at="2023-01-13T08:25:06 IST" duration-ms="10035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Vlaidate_AdminPage -->
-        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:49:09 IST" name="takeScreenShot" finished-at="2023-01-11T08:49:09 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:25:06 IST" name="takeScreenShot" finished-at="2023-01-13T08:25:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Vlaidate_AdminPage status=SUCCESS method=Education_TestFunctionality2.Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=Vlaidate_AdminPage status=SUCCESS method=Job_PageTestFunctinality.Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.Job_PageTestFunctinality@3c407114] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method signature="Validate_qualification()[pri:3, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:49:09 IST" name="Validate_qualification" finished-at="2023-01-11T08:49:23 IST" duration-ms="14424" status="PASS">
+        <test-method signature="Vlaidate_JobPageclick()[pri:3, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:25:06 IST" name="Vlaidate_JobPageclick" finished-at="2023-01-13T08:25:13 IST" duration-ms="7296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_JobPageclick -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:25:13 IST" name="takeScreenShot" finished-at="2023-01-13T08:25:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_JobPageclick status=SUCCESS method=Job_PageTestFunctinality.Vlaidate_JobPageclick()[pri:3, instance:hrm.testpages.Job_PageTestFunctinality@3c407114] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_JobPageTwoclick()[pri:4, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:25:13 IST" name="Vlaidate_JobPageTwoclick" finished-at="2023-01-13T08:25:27 IST" duration-ms="14489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_JobPageTwoclick -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:25:27 IST" name="takeScreenShot" finished-at="2023-01-13T08:25:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_JobPageTwoclick status=SUCCESS method=Job_PageTestFunctinality.Vlaidate_JobPageTwoclick()[pri:4, instance:hrm.testpages.Job_PageTestFunctinality@3c407114] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_JobPagethreeclick()[pri:5, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:25:27 IST" name="Vlaidate_JobPagethreeclick" finished-at="2023-01-13T08:25:42 IST" duration-ms="14353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_JobPagethreeclick -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:25:42 IST" name="takeScreenShot" finished-at="2023-01-13T08:25:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_JobPagethreeclick status=SUCCESS method=Job_PageTestFunctinality.Vlaidate_JobPagethreeclick()[pri:5, instance:hrm.testpages.Job_PageTestFunctinality@3c407114] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method is-config="true" signature="Windowclose()[pri:0, instance:hrm.testpages.Job_PageTestFunctinality@3c407114]" started-at="2023-01-13T08:25:42 IST" name="Windowclose" finished-at="2023-01-13T08:25:42 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowclose -->
+      </class> <!-- hrm.testpages.Job_PageTestFunctinality -->
+      <class name="hrm.testpages.qualificationsTestFunctionality">
+        <test-method is-config="true" signature="Windowopen()[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:26:51 IST" name="Windowopen" finished-at="2023-01-13T08:26:58 IST" duration-ms="6633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowopen -->
+        <test-method signature="Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:26:58 IST" name="Vlaidate_Printer_Settings" finished-at="2023-01-13T08:26:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_Printer_Settings -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:26:58 IST" name="takeScreenShot" finished-at="2023-01-13T08:26:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_Printer_Settings status=SUCCESS method=qualificationsTestFunctionality.Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:26:58 IST" name="Vlaidate_validSendkeys" finished-at="2023-01-13T08:27:13 IST" duration-ms="15634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_validSendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:27:13 IST" name="takeScreenShot" finished-at="2023-01-13T08:27:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_validSendkeys status=SUCCESS method=qualificationsTestFunctionality.Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:27:13 IST" name="Vlaidate_AdminPage" finished-at="2023-01-13T08:27:24 IST" duration-ms="10848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_AdminPage -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:27:24 IST" name="takeScreenShot" finished-at="2023-01-13T08:27:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_AdminPage status=SUCCESS method=qualificationsTestFunctionality.Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification()[pri:3, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:27:24 IST" name="Validate_qualification" finished-at="2023-01-13T08:27:35 IST" duration-ms="10453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_qualification -->
-        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:49:23 IST" name="takeScreenShot" finished-at="2023-01-11T08:49:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:27:35 IST" name="takeScreenShot" finished-at="2023-01-13T08:27:35 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Validate_qualification status=SUCCESS method=Education_TestFunctionality2.Validate_qualification()[pri:3, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=Validate_qualification status=SUCCESS method=qualificationsTestFunctionality.Validate_qualification()[pri:3, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method signature="Validate_qualification_One()[pri:4, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:49:23 IST" name="Validate_qualification_One" finished-at="2023-01-11T08:49:41 IST" duration-ms="17769" status="PASS">
+        <test-method signature="Validate_qualification_One()[pri:4, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:27:35 IST" name="Validate_qualification_One" finished-at="2023-01-13T08:27:49 IST" duration-ms="14403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_qualification_One -->
-        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:49:41 IST" name="takeScreenShot" finished-at="2023-01-11T08:49:41 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:27:49 IST" name="takeScreenShot" finished-at="2023-01-13T08:27:49 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Validate_qualification_One status=SUCCESS method=Education_TestFunctionality2.Validate_qualification_One()[pri:4, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=Validate_qualification_One status=SUCCESS method=qualificationsTestFunctionality.Validate_qualification_One()[pri:4, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method signature="Validate_qualification_Two()[pri:5, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:49:41 IST" name="Validate_qualification_Two" finished-at="2023-01-11T08:49:57 IST" duration-ms="16481" status="PASS">
+        <test-method signature="Validate_qualification_Two()[pri:5, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:27:49 IST" name="Validate_qualification_Two" finished-at="2023-01-13T08:28:03 IST" duration-ms="14367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_qualification_Two -->
-        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:49:57 IST" name="takeScreenShot" finished-at="2023-01-11T08:49:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:28:03 IST" name="takeScreenShot" finished-at="2023-01-13T08:28:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Validate_qualification_Two status=SUCCESS method=Education_TestFunctionality2.Validate_qualification_Two()[pri:5, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=Validate_qualification_Two status=SUCCESS method=qualificationsTestFunctionality.Validate_qualification_Two()[pri:5, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method signature="Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:49:57 IST" name="Validate_qualification_Sendkeys" finished-at="2023-01-11T08:50:18 IST" duration-ms="20068" status="PASS">
+        <test-method signature="Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:28:03 IST" name="Validate_qualification_Sendkeys" finished-at="2023-01-13T08:28:28 IST" duration-ms="24792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_qualification_Sendkeys -->
-        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:50:18 IST" name="takeScreenShot" finished-at="2023-01-11T08:50:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:28:28 IST" name="takeScreenShot" finished-at="2023-01-13T08:28:28 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Validate_qualification_Sendkeys status=SUCCESS method=Education_TestFunctionality2.Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=Validate_qualification_Sendkeys status=SUCCESS method=qualificationsTestFunctionality.Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method is-config="true" signature="Windowclose()[pri:0, instance:hrm.testpages.Education_TestFunctionality2@49c7b90e]" started-at="2023-01-11T08:50:18 IST" name="Windowclose" finished-at="2023-01-11T08:50:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Windowclose()[pri:0, instance:hrm.testpages.qualificationsTestFunctionality@c33b74f]" started-at="2023-01-13T08:28:28 IST" name="Windowclose" finished-at="2023-01-13T08:28:32 IST" duration-ms="3444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowclose -->
+      </class> <!-- hrm.testpages.qualificationsTestFunctionality -->
+      <class name="hrm.testpages.Languages_TestFunctionality2">
+        <test-method is-config="true" signature="Windowopen()[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:28:32 IST" name="Windowopen" finished-at="2023-01-13T08:28:41 IST" duration-ms="8861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowopen -->
+        <test-method signature="Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:28:41 IST" name="Vlaidate_Printer_Settings" finished-at="2023-01-13T08:28:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_Printer_Settings -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:28:41 IST" name="takeScreenShot" finished-at="2023-01-13T08:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_Printer_Settings status=SUCCESS method=Languages_TestFunctionality2.Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:28:41 IST" name="Vlaidate_validSendkeys" finished-at="2023-01-13T08:28:58 IST" duration-ms="17684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_validSendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:28:58 IST" name="takeScreenShot" finished-at="2023-01-13T08:28:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_validSendkeys status=SUCCESS method=Languages_TestFunctionality2.Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.Languages_TestFunctionality2@130161f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:28:58 IST" name="Vlaidate_AdminPage" finished-at="2023-01-13T08:29:06 IST" duration-ms="8120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_AdminPage -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:29:06 IST" name="takeScreenShot" finished-at="2023-01-13T08:29:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_AdminPage status=SUCCESS method=Languages_TestFunctionality2.Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.Languages_TestFunctionality2@130161f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification()[pri:3, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:29:06 IST" name="Validate_qualification" finished-at="2023-01-13T08:29:18 IST" duration-ms="11544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:29:18 IST" name="takeScreenShot" finished-at="2023-01-13T08:29:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification status=SUCCESS method=Languages_TestFunctionality2.Validate_qualification()[pri:3, instance:hrm.testpages.Languages_TestFunctionality2@130161f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_One()[pri:4, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:29:18 IST" name="Validate_qualification_One" finished-at="2023-01-13T08:29:32 IST" duration-ms="14165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_One -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:29:32 IST" name="takeScreenShot" finished-at="2023-01-13T08:29:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_One status=SUCCESS method=Languages_TestFunctionality2.Validate_qualification_One()[pri:4, instance:hrm.testpages.Languages_TestFunctionality2@130161f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_Two()[pri:5, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:29:32 IST" name="Validate_qualification_Two" finished-at="2023-01-13T08:29:47 IST" duration-ms="14949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_Two -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:29:47 IST" name="takeScreenShot" finished-at="2023-01-13T08:29:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_Two status=SUCCESS method=Languages_TestFunctionality2.Validate_qualification_Two()[pri:5, instance:hrm.testpages.Languages_TestFunctionality2@130161f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:29:47 IST" name="Validate_qualification_Sendkeys" finished-at="2023-01-13T08:30:05 IST" duration-ms="18434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_Sendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:30:05 IST" name="takeScreenShot" finished-at="2023-01-13T08:30:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_Sendkeys status=SUCCESS method=Languages_TestFunctionality2.Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.Languages_TestFunctionality2@130161f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method is-config="true" signature="Windowclose()[pri:0, instance:hrm.testpages.Languages_TestFunctionality2@130161f7]" started-at="2023-01-13T08:30:05 IST" name="Windowclose" finished-at="2023-01-13T08:30:06 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowclose -->
+      </class> <!-- hrm.testpages.Languages_TestFunctionality2 -->
+      <class name="hrm.testpages.AdminPageTestFunctionality">
+        <test-method is-config="true" signature="Windowopen()[pri:0, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:23:23 IST" name="Windowopen" finished-at="2023-01-13T08:23:37 IST" duration-ms="13892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowopen -->
+        <test-method signature="Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:23:37 IST" name="Vlaidate_Printer_Settings" finished-at="2023-01-13T08:23:37 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_Printer_Settings -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:23:37 IST" name="takeScreenShot" finished-at="2023-01-13T08:23:37 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_Printer_Settings status=SUCCESS method=AdminPageTestFunctionality.Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:23:37 IST" name="Vlaidate_validSendkeys" finished-at="2023-01-13T08:23:54 IST" duration-ms="16969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_validSendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:23:54 IST" name="takeScreenShot" finished-at="2023-01-13T08:23:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_validSendkeys status=SUCCESS method=AdminPageTestFunctionality.Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:23:54 IST" name="Vlaidate_AdminPage" finished-at="2023-01-13T08:24:06 IST" duration-ms="12513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_AdminPage -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:24:06 IST" name="takeScreenShot" finished-at="2023-01-13T08:24:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_AdminPage status=SUCCESS method=AdminPageTestFunctionality.Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_SystemUserpage()[pri:3, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:24:06 IST" name="Vlaidate_SystemUserpage" finished-at="2023-01-13T08:24:16 IST" duration-ms="9592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_SystemUserpage -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:24:16 IST" name="takeScreenShot" finished-at="2023-01-13T08:24:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_SystemUserpage status=SUCCESS method=AdminPageTestFunctionality.Vlaidate_SystemUserpage()[pri:3, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_SystemUserpage_One()[pri:4, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:24:16 IST" name="Vlaidate_SystemUserpage_One" finished-at="2023-01-13T08:24:25 IST" duration-ms="9605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_SystemUserpage_One -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:24:25 IST" name="takeScreenShot" finished-at="2023-01-13T08:24:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_SystemUserpage_One status=SUCCESS method=AdminPageTestFunctionality.Vlaidate_SystemUserpage_One()[pri:4, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_SystemUserpage_two()[pri:5, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:24:25 IST" name="Vlaidate_SystemUserpage_two" finished-at="2023-01-13T08:24:32 IST" duration-ms="6936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_SystemUserpage_two -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:24:32 IST" name="takeScreenShot" finished-at="2023-01-13T08:24:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_SystemUserpage_two status=SUCCESS method=AdminPageTestFunctionality.Vlaidate_SystemUserpage_two()[pri:5, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method is-config="true" signature="Windowclose()[pri:0, instance:hrm.testpages.AdminPageTestFunctionality@1cbbffcd]" started-at="2023-01-13T08:24:32 IST" name="Windowclose" finished-at="2023-01-13T08:24:33 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowclose -->
+      </class> <!-- hrm.testpages.AdminPageTestFunctionality -->
+      <class name="hrm.testpages.Membership_TestFunctionality3">
+        <test-method is-config="true" signature="Windowopen()[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:30:06 IST" name="Windowopen" finished-at="2023-01-13T08:30:14 IST" duration-ms="7755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowopen -->
+        <test-method signature="Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:30:14 IST" name="Vlaidate_Printer_Settings" finished-at="2023-01-13T08:30:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_Printer_Settings -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:30:14 IST" name="takeScreenShot" finished-at="2023-01-13T08:30:14 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_Printer_Settings status=SUCCESS method=Membership_TestFunctionality3.Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:30:14 IST" name="Vlaidate_validSendkeys" finished-at="2023-01-13T08:30:30 IST" duration-ms="15965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_validSendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:30:30 IST" name="takeScreenShot" finished-at="2023-01-13T08:30:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_validSendkeys status=SUCCESS method=Membership_TestFunctionality3.Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:30:30 IST" name="Vlaidate_AdminPage" finished-at="2023-01-13T08:30:39 IST" duration-ms="9010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_AdminPage -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:30:39 IST" name="takeScreenShot" finished-at="2023-01-13T08:30:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_AdminPage status=SUCCESS method=Membership_TestFunctionality3.Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification()[pri:3, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:30:39 IST" name="Validate_qualification" finished-at="2023-01-13T08:30:49 IST" duration-ms="10285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:30:49 IST" name="takeScreenShot" finished-at="2023-01-13T08:30:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification status=SUCCESS method=Membership_TestFunctionality3.Validate_qualification()[pri:3, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_One()[pri:4, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:30:49 IST" name="Validate_qualification_One" finished-at="2023-01-13T08:31:04 IST" duration-ms="14313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_One -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:31:04 IST" name="takeScreenShot" finished-at="2023-01-13T08:31:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_One status=SUCCESS method=Membership_TestFunctionality3.Validate_qualification_One()[pri:4, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_Two()[pri:5, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:31:04 IST" name="Validate_qualification_Two" finished-at="2023-01-13T08:31:18 IST" duration-ms="14269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_Two -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:31:18 IST" name="takeScreenShot" finished-at="2023-01-13T08:31:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_Two status=SUCCESS method=Membership_TestFunctionality3.Validate_qualification_Two()[pri:5, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:31:18 IST" name="Validate_qualification_Sendkeys" finished-at="2023-01-13T08:31:36 IST" duration-ms="18381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_Sendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:31:36 IST" name="takeScreenShot" finished-at="2023-01-13T08:31:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_Sendkeys status=SUCCESS method=Membership_TestFunctionality3.Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method is-config="true" signature="Windowclose()[pri:0, instance:hrm.testpages.Membership_TestFunctionality3@2c767a52]" started-at="2023-01-13T08:31:36 IST" name="Windowclose" finished-at="2023-01-13T08:31:37 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowclose -->
+      </class> <!-- hrm.testpages.Membership_TestFunctionality3 -->
+      <class name="hrm.testpages.License_TestFunctionality">
+        <test-method is-config="true" signature="Windowopen()[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:31:37 IST" name="Windowopen" finished-at="2023-01-13T08:31:44 IST" duration-ms="6742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowopen -->
+        <test-method signature="Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:31:44 IST" name="Vlaidate_Printer_Settings" finished-at="2023-01-13T08:31:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_Printer_Settings -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:31:44 IST" name="takeScreenShot" finished-at="2023-01-13T08:31:44 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_Printer_Settings status=SUCCESS method=License_TestFunctionality.Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:31:44 IST" name="Vlaidate_validSendkeys" finished-at="2023-01-13T08:32:06 IST" duration-ms="22434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_validSendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:32:06 IST" name="takeScreenShot" finished-at="2023-01-13T08:32:06 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_validSendkeys status=SUCCESS method=License_TestFunctionality.Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.License_TestFunctionality@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:32:06 IST" name="Vlaidate_AdminPage" finished-at="2023-01-13T08:32:19 IST" duration-ms="12717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_AdminPage -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:32:19 IST" name="takeScreenShot" finished-at="2023-01-13T08:32:19 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_AdminPage status=SUCCESS method=License_TestFunctionality.Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.License_TestFunctionality@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification()[pri:3, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:32:19 IST" name="Validate_qualification" finished-at="2023-01-13T08:32:30 IST" duration-ms="10815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:32:30 IST" name="takeScreenShot" finished-at="2023-01-13T08:32:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification status=SUCCESS method=License_TestFunctionality.Validate_qualification()[pri:3, instance:hrm.testpages.License_TestFunctionality@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_One()[pri:4, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:32:30 IST" name="Validate_qualification_One" finished-at="2023-01-13T08:32:44 IST" duration-ms="14378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_One -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:32:44 IST" name="takeScreenShot" finished-at="2023-01-13T08:32:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_One status=SUCCESS method=License_TestFunctionality.Validate_qualification_One()[pri:4, instance:hrm.testpages.License_TestFunctionality@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_Two()[pri:5, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:32:44 IST" name="Validate_qualification_Two" finished-at="2023-01-13T08:33:00 IST" duration-ms="15565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_Two -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:33:00 IST" name="takeScreenShot" finished-at="2023-01-13T08:33:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_Two status=SUCCESS method=License_TestFunctionality.Validate_qualification_Two()[pri:5, instance:hrm.testpages.License_TestFunctionality@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:33:00 IST" name="Validate_qualification_Sendkeys" finished-at="2023-01-13T08:33:19 IST" duration-ms="19301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_Sendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:33:19 IST" name="takeScreenShot" finished-at="2023-01-13T08:33:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_Sendkeys status=SUCCESS method=License_TestFunctionality.Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.License_TestFunctionality@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method is-config="true" signature="Windowclose()[pri:0, instance:hrm.testpages.License_TestFunctionality@619713e5]" started-at="2023-01-13T08:33:19 IST" name="Windowclose" finished-at="2023-01-13T08:33:19 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowclose -->
+      </class> <!-- hrm.testpages.License_TestFunctionality -->
+      <class name="hrm.testpages.Education_TestFunctionality2">
+        <test-method is-config="true" signature="Windowopen()[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:33:19 IST" name="Windowopen" finished-at="2023-01-13T08:33:32 IST" duration-ms="12607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowopen -->
+        <test-method signature="Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:33:32 IST" name="Vlaidate_Printer_Settings" finished-at="2023-01-13T08:33:32 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_Printer_Settings -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:33:32 IST" name="takeScreenShot" finished-at="2023-01-13T08:33:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_Printer_Settings status=SUCCESS method=Education_TestFunctionality2.Vlaidate_Printer_Settings()[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:33:32 IST" name="Vlaidate_validSendkeys" finished-at="2023-01-13T08:33:48 IST" duration-ms="16153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_validSendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:33:48 IST" name="takeScreenShot" finished-at="2023-01-13T08:33:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_validSendkeys status=SUCCESS method=Education_TestFunctionality2.Vlaidate_validSendkeys()[pri:1, instance:hrm.testpages.Education_TestFunctionality2@708f5957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:33:48 IST" name="Vlaidate_AdminPage" finished-at="2023-01-13T08:33:59 IST" duration-ms="10976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidate_AdminPage -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:33:59 IST" name="takeScreenShot" finished-at="2023-01-13T08:33:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Vlaidate_AdminPage status=SUCCESS method=Education_TestFunctionality2.Vlaidate_AdminPage()[pri:2, instance:hrm.testpages.Education_TestFunctionality2@708f5957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification()[pri:3, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:33:59 IST" name="Validate_qualification" finished-at="2023-01-13T08:34:09 IST" duration-ms="10155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:34:09 IST" name="takeScreenShot" finished-at="2023-01-13T08:34:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification status=SUCCESS method=Education_TestFunctionality2.Validate_qualification()[pri:3, instance:hrm.testpages.Education_TestFunctionality2@708f5957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_One()[pri:4, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:34:09 IST" name="Validate_qualification_One" finished-at="2023-01-13T08:34:23 IST" duration-ms="14382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_One -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:34:23 IST" name="takeScreenShot" finished-at="2023-01-13T08:34:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_One status=SUCCESS method=Education_TestFunctionality2.Validate_qualification_One()[pri:4, instance:hrm.testpages.Education_TestFunctionality2@708f5957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_Two()[pri:5, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:34:23 IST" name="Validate_qualification_Two" finished-at="2023-01-13T08:34:38 IST" duration-ms="14051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_Two -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:34:38 IST" name="takeScreenShot" finished-at="2023-01-13T08:34:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_Two status=SUCCESS method=Education_TestFunctionality2.Validate_qualification_Two()[pri:5, instance:hrm.testpages.Education_TestFunctionality2@708f5957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:34:38 IST" name="Validate_qualification_Sendkeys" finished-at="2023-01-13T08:34:56 IST" duration-ms="18790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_qualification_Sendkeys -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:34:56 IST" name="takeScreenShot" finished-at="2023-01-13T08:34:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_qualification_Sendkeys status=SUCCESS method=Education_TestFunctionality2.Validate_qualification_Sendkeys()[pri:6, instance:hrm.testpages.Education_TestFunctionality2@708f5957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method is-config="true" signature="Windowclose()[pri:0, instance:hrm.testpages.Education_TestFunctionality2@708f5957]" started-at="2023-01-13T08:34:56 IST" name="Windowclose" finished-at="2023-01-13T08:34:57 IST" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Windowclose -->
       </class> <!-- hrm.testpages.Education_TestFunctionality2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test.xml -->
+  </suite> <!-- Suite -->
 </testng-results>
